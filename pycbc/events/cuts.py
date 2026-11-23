@@ -515,7 +515,7 @@ def apply_template_cuts(bank, template_cut_dict, template_ids=None,
                                                     ifos,
                                                     (parameter, cut_function2),
                                                     cut_thresh2,
-                                                    tids_out_uncut)
+                                                    tids_out)
                 tids_out = tids_out[mask]
         else:
             raise ValueError("Cut parameter " + parameter + " not recognised."
